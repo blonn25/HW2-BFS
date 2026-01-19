@@ -1,7 +1,7 @@
 ! [BuildStatus] (https://github.com/blonn25/HW2-BFS/workflows/HW2-BFS/badge.svg?event=push)
 
 # Assignment 2
-Breadth-first search
+{Insert a description of BFS and my methods here}
 
 # Assignment Overview
 The purpose of this assignment is to get you comfortable working with graph structures and to implement a breadth-first search function to traverse the graph and find the shortest path between nodes.
