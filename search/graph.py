@@ -23,6 +23,10 @@ class Graph:
         * If there is an end node input and a path does not exist, return None
         """
 
+        # check if the graph is empty. If so, throw a ValueError
+        if len(self.graph.nodes) == 0:
+            raise ValueError("The current graph is empty.")
+
         # check if the start node exists. If not, throw a ValueError
         if start not in self.graph:
             raise ValueError("Provided start node does not exist in the current graph.")
