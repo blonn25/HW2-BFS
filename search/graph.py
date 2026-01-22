@@ -21,6 +21,17 @@ class Graph:
         * If there's no end node input, return a list nodes with the order of BFS traversal
         * If there is an end node input and a path exists, return a list of nodes with the order of the shortest path
         * If there is an end node input and a path does not exist, return None
+
+        Perform breadth-first traversal or shortest-path search.
+        Args:
+            start: Starting node
+            end (optional): Target node for path search
+        Returns:
+            path: If start and end node provided, a shortest path is returned
+            visited: If only the start node is provided, all visited nodes are returned in order of BFS traversal
+            None: If no path exists when start and end are provided, None is returned
+        Raises:
+            ValueError: If graph is empty or start/end node does not exist
         """
 
         # check if the graph is empty. If so, throw a ValueError

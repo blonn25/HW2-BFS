@@ -11,6 +11,8 @@ def test_bfs_traversal():
     using the 'tiny_network.adjlist' file and assert 
     that all nodes are being traversed (ie. returns 
     the right number of nodes, in the right order, etc.)
+
+    Test BFS traversal order and possible edge cases.
     """
     
     # initialize a Graph with 'tiny_network.adjlist'
@@ -53,7 +55,9 @@ def test_bfs():
     a (shortest) path between them.
     
     Include an additional test for nodes that are not connected 
-    which should return None. 
+    which should return None.
+
+    Test BFS shortest-path search and possible edge cases.
     """
     
     # initialize a Graph with 'citation_network.adjlist'
